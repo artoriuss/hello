@@ -17,9 +17,4 @@ public class IndexController {
     public String hello(@PathVariable String name) {
         return "hello " + name + "!";
     }
-
-    @GetMapping( "/teste" )
-    public String hello2() {
-        return "teste!";
-    }
 }
